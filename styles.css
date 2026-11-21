@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body {
+      background-color: hsl(47, 88%, 63%);
+      font-family: Figtree, sans-serif;
+    }
+
+
+.attribution{
+    height: 50px;
+    text-align: center;
+    font-weight: 100;
+    color: rgb(237, 21, 21);
+    border-color: gray;
+    letter-spacing: 0.2rem;
+    margin-top: 50px;
+
+    
+}  
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .bloc_generale {
+      background-color: hsl(0, 0%, 100%);
+      width: 500px;
+      border-radius: 20px;
+      padding: 20px;
+      margin-left: 580px;
+      margin-top: 50px;
+      border: 0.5px solid hsl(0, 27%, 4%);
+      box-shadow: 10px 5px 5px 5px hsl(0, 27%, 4%);
+    }
+    .bloc_milieu {
+      text-align: center;
+    }
+    .img_milieu {
+      width: 100%;
+      border-radius: 20px;
+    }
+    h2{
+      color: hsl(0, 0%, 7%);
+      margin-top: 0;
+      margin-bottom: 10px;
+      padding-top: 7px;
+      font-family: "Epilogue", sans-serif;
+      font-weight: 700;
+    }
+    .bloc_lerning{
+      background-color: hsl(47, 88%, 63%);
+      color: hsl(0, 0%, 100%);
+      width: 150px;
+      height: 40px;
+      text-align: center;
+      margin-top: 10px;
+      border-radius: 5px;
+
+    }
+    h1{
+      color: hsl(47, 88%, 63%);
+      font-family: "Epilogue", sans-serif;
+      font-weight: 700;
+    }
+    p{
+      color: hsl(0, 0%, 42%);
+      font-family: "Epilogue", sans-serif;
+      font-size: 16px;
+    }
+    h3{
+      color: hsl(0, 0%, 7%);
+      font-family: "Epilogue", sans-serif;
+      font-size: 16px;
+    }
+    h4{
+      color: hsl(0, 0%, 7%);
+      font-family: "Epilogue", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+
+    }
+    .bloc_auteur{
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      gap: 10px;
+    }
+    @media screen and (max-width: 900px) {
+      .bloc_generale {
+        width: 90%;
+        margin-left: 5%;
+
+      }
+      
+    }
